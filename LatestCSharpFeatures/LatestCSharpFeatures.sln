@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartialInterface", "Partial
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringInterPolation", "StringInterPolation\StringInterPolation.csproj", "{FBCBE8B2-A29A-4849-982F-94EA86A361DE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NameOfOperator", "NameOfOperator\NameOfOperator.csproj", "{1C5632FB-AF7C-48B8-B096-A0870DCCAE7A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{FBCBE8B2-A29A-4849-982F-94EA86A361DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FBCBE8B2-A29A-4849-982F-94EA86A361DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FBCBE8B2-A29A-4849-982F-94EA86A361DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C5632FB-AF7C-48B8-B096-A0870DCCAE7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C5632FB-AF7C-48B8-B096-A0870DCCAE7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C5632FB-AF7C-48B8-B096-A0870DCCAE7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C5632FB-AF7C-48B8-B096-A0870DCCAE7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
