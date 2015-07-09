@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingStaticMembers", "Using
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionFilters", "ExceptionFilters\ExceptionFilters.csproj", "{B53BDCAC-59DC-426B-8E82-8643A3362FB9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartialInterface", "PartialInterface\PartialInterface.csproj", "{9D035B23-6AB5-4B11-AB66-FCDA4B2A917B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{B53BDCAC-59DC-426B-8E82-8643A3362FB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B53BDCAC-59DC-426B-8E82-8643A3362FB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B53BDCAC-59DC-426B-8E82-8643A3362FB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D035B23-6AB5-4B11-AB66-FCDA4B2A917B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D035B23-6AB5-4B11-AB66-FCDA4B2A917B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D035B23-6AB5-4B11-AB66-FCDA4B2A917B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D035B23-6AB5-4B11-AB66-FCDA4B2A917B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

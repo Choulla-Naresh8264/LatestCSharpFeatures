@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace PartialInterface
 {
@@ -10,6 +6,31 @@ namespace PartialInterface
     {
         static void Main(string[] args)
         {
+            IPerson person = new Person();
+            Console.WriteLine(person.FirstName);
+            Console.WriteLine(person.LastName);
         }
+    }
+
+    public partial interface IPerson
+    {
+        string FirstName { get; set; }
+    }
+    public partial interface IPerson
+    {
+        string LastName { get; set; }
+    }
+
+    public class Person : IPerson
+    {
+        public string FirstName
+        {
+           get;set;
+        }= "Jalpesh";
+
+        public string LastName
+        {
+            get;set;
+        }="Vadgama";
     }
 }
