@@ -17,7 +17,7 @@ namespace AutoPropertyIntializers
             Console.WriteLine(employee.Id);
             Console.WriteLine(employee.FirstName);
             Console.WriteLine(employee.LastName);
-            
+            Console.ReadKey();
         }
     }
 
