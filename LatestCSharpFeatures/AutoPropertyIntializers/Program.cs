@@ -1,9 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
 
 namespace AutoPropertyIntializers
 {
-    class Program
+    static class Program
     {
         static void Main(string[] args)
         {
@@ -19,12 +18,5 @@ namespace AutoPropertyIntializers
             Console.WriteLine(employee.LastName);
             Console.ReadKey();
         }
-    }
-
-    public class Employee
-    {
-        public Guid Id {get;set;}= Guid.NewGuid();
-        public string FirstName {get;set;}
-        public string LastName {get;set;}
     }
 }

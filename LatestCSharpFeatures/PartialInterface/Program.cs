@@ -2,7 +2,7 @@
 
 namespace PartialInterface
 {
-    class Program
+    static class Program
     {
         static void Main(string[] args)
         {
@@ -11,27 +11,5 @@ namespace PartialInterface
             Console.WriteLine(person.LastName);
             Console.ReadKey();
         }
-    }
-
-    public partial interface IPerson
-    {
-        string FirstName { get; set; }
-    }
-    public partial interface IPerson
-    {
-        string LastName { get; set; }
-    }
-
-    public class Person : IPerson
-    {
-        public string FirstName
-        {
-           get;set;
-        }= "Jalpesh";
-
-        public string LastName
-        {
-            get;set;
-        }="Vadgama";
     }
 }
