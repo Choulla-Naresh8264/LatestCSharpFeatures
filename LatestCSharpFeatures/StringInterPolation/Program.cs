@@ -9,6 +9,7 @@ namespace StringInterPolation
             Student student = new Student();
             Console.Write($"First Name:{student.FirstName}");
             Console.Write($"Last Name:{student.LastName}");
+            Console.ReadKey();
         }
     }
 }
