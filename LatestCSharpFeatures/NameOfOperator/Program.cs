@@ -6,7 +6,7 @@ namespace NameOfOperator
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(nameof(Employee));
+            Console.WriteLine(nameof(Foo));
             Console.ReadKey();
         }
     }

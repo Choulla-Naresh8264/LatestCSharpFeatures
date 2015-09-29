@@ -8,7 +8,7 @@ namespace ExceptionFilters
         {
             try
             {
-                throw new Exception("Another message");
+                throw new Exception("My Exception");
             }
             catch (Exception ex) when (ex.Message == "Another message")
             {
